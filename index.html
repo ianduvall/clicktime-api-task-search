@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+	<title>ClickTime Intern Quiz</title>
+
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+	<!-- Font Awesome -->
+	<script src="https://use.fontawesome.com/092c7eec44.js"></script>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+	<!-- Client JS -->
+	<script type="text/javascript" src="client.js"></script>
+
+	<!-- Client CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h1>Hello <span id="name"></span></h1>
+				<br>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8">
+				<h2>Task Search</h2>
+				<div id="custom-search-input">
+					<div class="input-group">
+						<input id="search-box" type="text" class="form-control input-lg" placeholder="Search..." />
+						<span class="input-group-btn">
+							<button id="search-button" class="btn btn-info btn-lg" type="button">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</button>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8">
+				<br>
+				<h4>Searching for task: <span id="displaying"></span></h4>
+				<div id="display-tasks">
+					<!-- where tasks display -->
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
